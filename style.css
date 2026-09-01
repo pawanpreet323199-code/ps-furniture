@@ -1,0 +1,83 @@
+/* Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    height: 80px;
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 25px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* PS Logo */
+.logo {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background: #3b2617;
+
+    border: 3px solid #d8a15b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #f5d28c;
+
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    box-shadow: 0 0 10px rgba(216, 161, 91, 0.5);
+}
+
+
+/* Brand Text */
+.brand {
+    margin-left: 12px;
+
+    color: #3b2617;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Navigation */
+.nav-links {
+    margin-left: auto;
+
+    display: flex;
+
+    gap: 25px;
+}
+
+
+/* Navigation Links */
+.nav-links a {
+    color: #3b2617;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #c1843d;
+}
